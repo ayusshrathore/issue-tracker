@@ -8,3 +8,9 @@ body,
 	height: 100%;
 	width: 100%;
 }
+
+@layer utilities {
+	.nav-link {
+		@apply text-zinc-500 hover:text-zinc-800 transition-colors;
+	}
+}
