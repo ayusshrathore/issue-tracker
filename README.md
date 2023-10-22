@@ -17,10 +17,11 @@ This is a simple issue tracker web application built using Next.js, Prisma, Tail
 - **Issue Summary:** There's a summary view that provides an overview of all issues, including their current status and assigned users.
 
 ## Screenshots
-<img width="1470" alt="Screenshot 2023-10-22 at 1 34 59 PM" src="https://github.com/ayusshrathore/issue-tracker/assets/61450246/b2ac685d-b2c8-4b17-b08a-be339a334b05">
-<img width="1470" alt="Screenshot 2023-10-22 at 1 35 07 PM" src="https://github.com/ayusshrathore/issue-tracker/assets/61450246/90182d18-9fea-4fa7-995d-dd95a9c350bf">
-<img width="1470" alt="Screenshot 2023-10-22 at 1 35 31 PM" src="https://github.com/ayusshrathore/issue-tracker/assets/61450246/9263e75c-5d84-4cc9-a5d7-f73de6457fb9">
-<img width="1470" alt="Screenshot 2023-10-22 at 1 35 43 PM" src="https://github.com/ayusshrathore/issue-tracker/assets/61450246/1182cabf-6e4c-4cbf-a219-4c16e378191f">
+<img width="1470" alt="Screenshot 2023-10-22 at 1 34 59 PM" src="https://github.com/ayusshrathore/issue-tracker/assets/61450246/58655202-2ece-4927-9274-8263e7a284e6">
+<img width="1470" alt="Screenshot 2023-10-22 at 1 35 07 PM" src="https://github.com/ayusshrathore/issue-tracker/assets/61450246/5d842db5-5943-4c2a-adb4-896d230e0cf0">
+<img width="1470" alt="Screenshot 2023-10-22 at 1 35 31 PM" src="https://github.com/ayusshrathore/issue-tracker/assets/61450246/c7dfa3cc-2255-42a1-a842-010f04af41d4">
+<img width="1470" alt="Screenshot 2023-10-22 at 1 35 43 PM" src="https://github.com/ayusshrathore/issue-tracker/assets/61450246/3b4002ab-a3db-449e-ab9e-5d8fe199a731">
+
 
 
 ## Getting Started
