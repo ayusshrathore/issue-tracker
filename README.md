@@ -1,34 +1,98 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Issue Tracker
+
+This is a simple issue tracker web application built using Next.js, Prisma, Tailwind CSS, and React Query. It allows you to create, update, and delete issues, assign issues to users, and view a summary of all issues.
+
+## Features
+
+- **User Authentication:** The application supports user authentication and authorization. Users can create accounts and log in to manage issues.
+
+- **Create Issues:** Users can create new issues with a title, description, and assign them to other users.
+
+- **Update Issues:** You can update the status, title, and description of existing issues.
+
+- **Delete Issues:** Users can delete issues they no longer need.
+
+- **Assign Issues:** Assign issues to specific users, which helps in task management and responsibility tracking.
+
+- **Issue Summary:** There's a summary view that provides an overview of all issues, including their current status and assigned users.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this issue tracker, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone the repository to your local machine:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```
+   git clone https://github.com/ayusshrathore/issue-tracker.git
+   cd issue-tracker
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Install dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```
+   npm install
+   ```
 
-## Learn More
+3. Configure the database:
 
-To learn more about Next.js, take a look at the following resources:
+   - Create a `.env` file in the root directory with your database connection URL. For example:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+     ```
+     DATABASE_URL=""
+     NEXTAUTH_URL=""
+     NEXTAUTH_SECRET=""
+     GOOGLE_CLIENT_ID=""
+     GOOGLE_CLIENT_SECRET=""
+     ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   - Run database migrations to create the necessary tables:
 
-## Deploy on Vercel
+     ```
+     npx prisma migrate dev
+     ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Start the development server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```
+   npm run dev
+   ```
+
+5. Visit `http://localhost:3000` in your web browser to use the issue tracker.
+
+## Tech Stack
+
+- **Next.js:** A React framework for building web applications.
+- **Prisma:** A modern database toolkit for Node.js and TypeScript.
+- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+- **React Query:** A data-fetching and state management library for React applications.
+
+## Folder Structure
+
+- `/app`: Next.js app components.
+- `/app/components`: Reusable React components.
+- `/app/api`: API routes for the application.
+- `/app/hooks`: Custom React hooks to fetch data using React Query.
+- `/prisma`: Database schema and migrations.
+
+## Contributing
+
+We welcome contributions from the community. If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Create a pull request explaining the changes you've made.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Authors
+
+- [Ayush Rathore](https://github.com/ayusshrathore)
+
+## Acknowledgments
+
+- This project was inspired by the need for a simple issue tracking system.
+
+Feel free to reach out if you have any questions or encounter any issues while using this application. Enjoy tracking your issues!
